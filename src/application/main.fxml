@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="399.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="image" fitHeight="400.0" fitWidth="469.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ludo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button" layoutX="411.0" layoutY="117.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="101.0" text="Roll Dice" />
+      <Label fx:id="label" contentDisplay="CENTER" layoutX="411.0" layoutY="64.0" prefHeight="21.0" prefWidth="101.0" text="Player 1 Turn" />
+      <Circle fx:id="gb4" fill="#1fff69" layoutX="54.0" layoutY="106.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="bb3" fill="DODGERBLUE" layoutX="344.0" layoutY="346.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="bb4" fill="DODGERBLUE" layoutX="292.0" layoutY="346.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="bb2" fill="DODGERBLUE" layoutX="344.0" layoutY="287.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="bb1" fill="DODGERBLUE" layoutX="292.0" layoutY="287.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="gb2" fill="#1fff79" layoutX="106.0" layoutY="53.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="rb2" fill="#ff421f" layoutX="106.0" layoutY="297.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="gb3" fill="#1fff53" layoutX="106.0" layoutY="106.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="yb2" fill="#e8ff1f" layoutX="344.0" layoutY="53.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="rb4" fill="#ff421f" layoutX="106.0" layoutY="346.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="rb3" fill="#ff421f" layoutX="54.0" layoutY="346.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="rb1" fill="#ff421f" layoutX="54.0" layoutY="297.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="yb1" fill="#e8ff1f" layoutX="292.0" layoutY="53.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="yb4" fill="#e8ff1f" layoutX="292.0" layoutY="106.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="yb3" fill="#e8ff1f" layoutX="344.0" layoutY="106.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="gb1" fill="#1fff79" layoutX="54.0" layoutY="53.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fx:id="dice_image" fitHeight="125.0" fitWidth="118.0" layoutX="403.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/D_1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
